@@ -14,7 +14,9 @@
 int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, PSTR lpCmdLine, int nCmdShow) {
 	int C_ARGC;
 	LPWSTR *C_ARGV = CommandLineToArgvW(GetCommandLineW(), &C_ARGC);
-	if ( NULL == C_ARGV) return -1;
+	if (NULL == C_ARGV) {
+		return -1;
+	}
 #else
 int main(int C_ARGC, const char *C_ARGV[]) {
 #endif
