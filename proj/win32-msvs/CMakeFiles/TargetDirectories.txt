@@ -1,0 +1,3 @@
+C:/Users/risc/Desktop/Lynx/proj/win32-msvs/CMakeFiles/lynx.dir
+C:/Users/risc/Desktop/Lynx/proj/win32-msvs/CMakeFiles/ALL_BUILD.dir
+C:/Users/risc/Desktop/Lynx/proj/win32-msvs/CMakeFiles/ZERO_CHECK.dir
