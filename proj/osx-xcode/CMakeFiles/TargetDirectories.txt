@@ -1,0 +1,3 @@
+/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/ALL_BUILD.dir
+/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir

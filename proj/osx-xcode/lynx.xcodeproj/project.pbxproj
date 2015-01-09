@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              7263F3B047124C4F82C9448F /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = ADCA0A168CD84B3283B6E0ED /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            099ED21F712A4567BD43204A /* CMake Rules */,
+                     );
+                     dependencies = (
+                            663E432BE08B405582B7A607 /* PBXTargetDependency */,
+                            E1AD5317CD584B21B7AE2FAA /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              778B6CC58A9E408FA4CE8066 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AD32B41B795742199CE4D98B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            7607A67B314C4FA3AD89BA09 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+C6A106ED5BFB4A4FBAA9442C /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+7FAB67870427416EB0A27138 /* /Users/ope/Desktop/lynx/main.c */ = {isa = PBXBuildFile; fileRef = 95134503B19B405486D37F2A /* /Users/ope/Desktop/lynx/main.c */; settings = { COMPILER_FLAGS = ""; }; };
+52F933FF9828497D93F843F6 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 9E67D5C3B24542A7BD91C2A1 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              874E4F30796743579C54BEFE /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              B702DE860B994A508EA653B4 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              FD2224D23FCA4AE68700DB0A /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              82E9995B0C3A4CEAA18FDE0B /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              0AD1205AD7D445EC9D346EBC /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              9F80AD2C242D42F897BEA302 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = EBE64A0D1337409392D1EF13 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 778B6CC58A9E408FA4CE8066;
+                     remoteInfo = ZERO_CHECK;
+              };
+              68735B6362794089BC9FDD54 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = EBE64A0D1337409392D1EF13 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2E02E7A5511F40BA93D4A15B;
+                     remoteInfo = lynx;
+              };
+              79E726B5602349AF93FA9249 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = EBE64A0D1337409392D1EF13 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 778B6CC58A9E408FA4CE8066;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+31AFA7838C7C44399FC8DCDD /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+C33F976A1D3043739BD1FFCC /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+95134503B19B405486D37F2A /* /Users/ope/Desktop/lynx/main.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "main.c"; path = "main.c"; sourceTree = SOURCE_ROOT; };
+9E67D5C3B24542A7BD91C2A1 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text.plist"; fileEncoding = 4; name = "Info.plist"; path = "proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+0BC759B55BD84C60A04AFD8D /* lynx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = lynx; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              25192CAE47754459B5B526C8  = {
+                     isa = PBXGroup;
+                     children = (
+                            B7C0722EFB2A421DB51ED519 /* Sources */,
+                            FA433E1FAABC488BAA0E3DFE /* Resources */,
+                            AAC4DCD4B23540E89C5DD8C0 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              B7C0722EFB2A421DB51ED519 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            47022FF957C844B782D84F2F /* ALL_BUILD */,
+                            499253F28F9D4E15BC155A08 /* ZERO_CHECK */,
+                            E7B85747CE054046AF71DA1E /* lynx */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              FA433E1FAABC488BAA0E3DFE /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              47022FF957C844B782D84F2F /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AE3FBD1F243B46E0ACDCC105 /* CMake Rules */,
+                            31AFA7838C7C44399FC8DCDD /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              AE3FBD1F243B46E0ACDCC105 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              499253F28F9D4E15BC155A08 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8EBAD2C346524C518DD7399B /* CMake Rules */,
+                            C33F976A1D3043739BD1FFCC /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              8EBAD2C346524C518DD7399B /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              E7B85747CE054046AF71DA1E /* lynx */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C6448F2DAD1945B5A8AB1382 /* Source Files */,
+                            76D4757407564506838EE3D3 /* Resources */,
+                            E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
+                     );
+                     name = lynx;
+                     sourceTree = "<group>";
+              };
+              C6448F2DAD1945B5A8AB1382 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            95134503B19B405486D37F2A /* /Users/ope/Desktop/lynx/main.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              76D4757407564506838EE3D3 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9E67D5C3B24542A7BD91C2A1 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */,
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              AAC4DCD4B23540E89C5DD8C0 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0BC759B55BD84C60A04AFD8D /* lynx */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              2E02E7A5511F40BA93D4A15B /* lynx */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = DD8EE5CE8A154E2D8F41EEFF /* Build configuration list for PBXNativeTarget "lynx" */;
+                     buildPhases = (
+                            A9916DE873DF4EE7980662EC /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            B97D53F63A3249648451AD9D /* PBXTargetDependency */,
+                     );
+                     name = lynx;
+                     productName = lynx;
+                     productReference = 0BC759B55BD84C60A04AFD8D /* lynx */;
+                     productType = "com.apple.product-type.application";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              EBE64A0D1337409392D1EF13 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 55B14C2E7CD44367BDBF9B69 /* Build configuration list for PBXProject  "lynx" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            B702DE860B994A508EA653B4 /* Debug */,
+                            FD2224D23FCA4AE68700DB0A /* Release */,
+                            82E9995B0C3A4CEAA18FDE0B /* MinSizeRel */,
+                            0AD1205AD7D445EC9D346EBC /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 25192CAE47754459B5B526C8;
+                     projectDirPath = "../..";
+                     projectRoot = "";
+                     targets = (
+                            7263F3B047124C4F82C9448F /* ALL_BUILD */,
+                            778B6CC58A9E408FA4CE8066 /* ZERO_CHECK */,
+                            2E02E7A5511F40BA93D4A15B /* lynx */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              8F3595292E2044B4B70B0629 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              099ED21F712A4567BD43204A /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ope/Desktop/lynx/proj/osx-xcode -f /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              F45565AE0F19473682B983A2 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7607A67B314C4FA3AD89BA09 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ope/Desktop/lynx/proj/osx-xcode -f /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              A9916DE873DF4EE7980662EC /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            7FAB67870427416EB0A27138 /* /Users/ope/Desktop/lynx/main.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              663E432BE08B405582B7A607 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 778B6CC58A9E408FA4CE8066 /* ZERO_CHECK */;
+                     targetProxy = 9F80AD2C242D42F897BEA302 /* PBXContainerItemProxy */;
+              };
+              E1AD5317CD584B21B7AE2FAA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2E02E7A5511F40BA93D4A15B /* lynx */;
+                     targetProxy = 68735B6362794089BC9FDD54 /* PBXContainerItemProxy */;
+              };
+              B97D53F63A3249648451AD9D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 778B6CC58A9E408FA4CE8066 /* ZERO_CHECK */;
+                     targetProxy = 79E726B5602349AF93FA9249 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              7ED51688D6EA4847B68407CD /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode/build";
+                     };
+                     name = Debug;
+              };
+              43A0678B240F4BE284988B91 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode/build";
+                     };
+                     name = Release;
+              };
+              7D5198FFF25E474997FCD84C /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode/build";
+                     };
+                     name = MinSizeRel;
+              };
+              83D32969DD9840A3A60FB6CF /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              FA09D049740F4E0996180E47 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              EE91A3A6808E4C93B816D832 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              6D45748C97F84B649563358A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D11AC47108564AD6BE4D01F8 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              B1E3B08CE51A494CAF8024BE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              489AF2A719444BEFA2061211 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              49F7F73B73E243F89B3059BB /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              C4CD75DABF6B4751917448EA /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              6C59A3CF96794BDBB554358B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INFOPLIST_FILE = "/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = lynx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              1C18D61BD0C749128D4E3278 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INFOPLIST_FILE = "/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = lynx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0015E033F3FD4F77947CD480 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INFOPLIST_FILE = "/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = lynx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              246366DFC14543CB9D662274 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INFOPLIST_FILE = "/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = lynx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ope/Desktop/lynx/proj/osx-xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              55B14C2E7CD44367BDBF9B69 /* Build configuration list for PBXProject  "lynx" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7ED51688D6EA4847B68407CD /* Debug */,
+                            43A0678B240F4BE284988B91 /* Release */,
+                            7D5198FFF25E474997FCD84C /* MinSizeRel */,
+                            83D32969DD9840A3A60FB6CF /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              ADCA0A168CD84B3283B6E0ED /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            FA09D049740F4E0996180E47 /* Debug */,
+                            EE91A3A6808E4C93B816D832 /* Release */,
+                            6D45748C97F84B649563358A /* MinSizeRel */,
+                            D11AC47108564AD6BE4D01F8 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AD32B41B795742199CE4D98B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B1E3B08CE51A494CAF8024BE /* Debug */,
+                            489AF2A719444BEFA2061211 /* Release */,
+                            49F7F73B73E243F89B3059BB /* MinSizeRel */,
+                            C4CD75DABF6B4751917448EA /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              DD8EE5CE8A154E2D8F41EEFF /* Build configuration list for PBXNativeTarget "lynx" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            6C59A3CF96794BDBB554358B /* Debug */,
+                            1C18D61BD0C749128D4E3278 /* Release */,
+                            0015E033F3FD4F77947CD480 /* MinSizeRel */,
+                            246366DFC14543CB9D662274 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = EBE64A0D1337409392D1EF13;
+}
