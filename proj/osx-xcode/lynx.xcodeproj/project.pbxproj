@@ -9,22 +9,22 @@
 /* Begin PBXAggregateTarget section */
               7263F3B047124C4F82C9448F /* ALL_BUILD */ = {
                      isa = PBXAggregateTarget;
-                     buildConfigurationList = ADCA0A168CD84B3283B6E0ED /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildConfigurationList = 2F3125014C6E4BCDBA623AA9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
                      buildPhases = (
-                            099ED21F712A4567BD43204A /* CMake Rules */,
+                            CFE3B4F7266945A8BD10A059 /* CMake Rules */,
                      );
                      dependencies = (
-                            663E432BE08B405582B7A607 /* PBXTargetDependency */,
-                            E1AD5317CD584B21B7AE2FAA /* PBXTargetDependency */,
+                            9645715898934F969A1020E2 /* PBXTargetDependency */,
+                            7570BF893BF44FC888FD331F /* PBXTargetDependency */,
                      );
                      name = ALL_BUILD;
                      productName = ALL_BUILD;
               };
               778B6CC58A9E408FA4CE8066 /* ZERO_CHECK */ = {
                      isa = PBXAggregateTarget;
-                     buildConfigurationList = AD32B41B795742199CE4D98B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildConfigurationList = CB7FBC84339248ACAFD256B4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
                      buildPhases = (
-                            7607A67B314C4FA3AD89BA09 /* CMake Rules */,
+                            F2C7D628108048E69D25AE9A /* CMake Rules */,
                      );
                      dependencies = (
                      );
@@ -34,37 +34,37 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-C6A106ED5BFB4A4FBAA9442C /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
-7FAB67870427416EB0A27138 /* /Users/ope/Desktop/lynx/main.c */ = {isa = PBXBuildFile; fileRef = 95134503B19B405486D37F2A /* /Users/ope/Desktop/lynx/main.c */; settings = { COMPILER_FLAGS = ""; }; };
-52F933FF9828497D93F843F6 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 9E67D5C3B24542A7BD91C2A1 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */; settings = { COMPILER_FLAGS = ""; }; };
+5852196FE26F41E09DBEC3CD /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8881658F1A4E4502B25E22E6 /* /Users/ope/Desktop/lynx/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+A1D2C3179AF94B2B8F3D89B6 /* /Users/ope/Desktop/lynx/main.cpp */ = {isa = PBXBuildFile; fileRef = 7473CFDBE0894EDF899CA240 /* /Users/ope/Desktop/lynx/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+99CA2170D17F4B8B95E742C0 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0B2020B6B8324D62A8261AED /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */; settings = { COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-              874E4F30796743579C54BEFE /*  */ = {
+              962E3DD6DE7645C488FA602B /*  */ = {
                      isa = PBXBuildStyle;
               };
-              B702DE860B994A508EA653B4 /* Debug */ = {
+              8DF30007C8E6473B9986EA83 /* Debug */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = Debug;
               };
-              FD2224D23FCA4AE68700DB0A /* Release */ = {
+              573C2BBFE49948198F5387F3 /* Release */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = Release;
               };
-              82E9995B0C3A4CEAA18FDE0B /* MinSizeRel */ = {
+              A16965C9369A4E8C82A9D2BF /* MinSizeRel */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = MinSizeRel;
               };
-              0AD1205AD7D445EC9D346EBC /* RelWithDebInfo */ = {
+              1830FC4130D34302B2C7790A /* RelWithDebInfo */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
@@ -74,21 +74,21 @@ C6A106ED5BFB4A4FBAA9442C /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = P
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-              9F80AD2C242D42F897BEA302 /* PBXContainerItemProxy */ = {
-                     isa = PBXContainerItemProxy;
-                     containerPortal = EBE64A0D1337409392D1EF13 /* Project object */;
-                     proxyType = 1;
-                     remoteGlobalIDString = 778B6CC58A9E408FA4CE8066;
-                     remoteInfo = ZERO_CHECK;
-              };
-              68735B6362794089BC9FDD54 /* PBXContainerItemProxy */ = {
+              034CC9C39A554F9C94A8B6C3 /* PBXContainerItemProxy */ = {
                      isa = PBXContainerItemProxy;
                      containerPortal = EBE64A0D1337409392D1EF13 /* Project object */;
                      proxyType = 1;
                      remoteGlobalIDString = 2E02E7A5511F40BA93D4A15B;
                      remoteInfo = lynx;
               };
-              79E726B5602349AF93FA9249 /* PBXContainerItemProxy */ = {
+              2CE138233E7D44C79A9C9793 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = EBE64A0D1337409392D1EF13 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 778B6CC58A9E408FA4CE8066;
+                     remoteInfo = ZERO_CHECK;
+              };
+              7AE172DFBAB940AE85F3480D /* PBXContainerItemProxy */ = {
                      isa = PBXContainerItemProxy;
                      containerPortal = EBE64A0D1337409392D1EF13 /* Project object */;
                      proxyType = 1;
@@ -98,103 +98,103 @@ C6A106ED5BFB4A4FBAA9442C /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = P
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-31AFA7838C7C44399FC8DCDD /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-C33F976A1D3043739BD1FFCC /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-95134503B19B405486D37F2A /* /Users/ope/Desktop/lynx/main.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "main.c"; path = "main.c"; sourceTree = SOURCE_ROOT; };
-9E67D5C3B24542A7BD91C2A1 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text.plist"; fileEncoding = 4; name = "Info.plist"; path = "proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
-0BC759B55BD84C60A04AFD8D /* lynx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = lynx; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+80E7D4A8DFD842C8848B6938 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+3E853D0666D547F79EBC6086 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+8881658F1A4E4502B25E22E6 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+7473CFDBE0894EDF899CA240 /* /Users/ope/Desktop/lynx/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "main.cpp"; sourceTree = SOURCE_ROOT; };
+0B2020B6B8324D62A8261AED /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text.plist"; fileEncoding = 4; name = "Info.plist"; path = "proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+F7E196E0864A45BB8188724A /* lynx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = lynx; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-              25192CAE47754459B5B526C8  = {
+              BFBFA796BCBD4EEEB44C1995  = {
                      isa = PBXGroup;
                      children = (
-                            B7C0722EFB2A421DB51ED519 /* Sources */,
-                            FA433E1FAABC488BAA0E3DFE /* Resources */,
-                            AAC4DCD4B23540E89C5DD8C0 /* Products */,
+                            920944F345B94ECEA197896F /* Sources */,
+                            590846744BA34FA8A40AFA5B /* Resources */,
+                            440EE2763F4A41FB92BBF10A /* Products */,
                      );
                      sourceTree = "<group>";
               };
-              B7C0722EFB2A421DB51ED519 /* Sources */ = {
+              920944F345B94ECEA197896F /* Sources */ = {
                      isa = PBXGroup;
                      children = (
-                            47022FF957C844B782D84F2F /* ALL_BUILD */,
-                            499253F28F9D4E15BC155A08 /* ZERO_CHECK */,
-                            E7B85747CE054046AF71DA1E /* lynx */,
+                            C9FFE7C1B16140AC9BF9E6FC /* ALL_BUILD */,
+                            2BA8BF70BAE046B992A8D28D /* ZERO_CHECK */,
+                            CA748CAA22EB46D2B749B91B /* lynx */,
                      );
                      name = Sources;
                      sourceTree = "<group>";
               };
-              FA433E1FAABC488BAA0E3DFE /* Resources */ = {
+              590846744BA34FA8A40AFA5B /* Resources */ = {
                      isa = PBXGroup;
                      children = (
                      );
                      name = Resources;
                      sourceTree = "<group>";
               };
-              47022FF957C844B782D84F2F /* ALL_BUILD */ = {
+              C9FFE7C1B16140AC9BF9E6FC /* ALL_BUILD */ = {
                      isa = PBXGroup;
                      children = (
-                            AE3FBD1F243B46E0ACDCC105 /* CMake Rules */,
-                            31AFA7838C7C44399FC8DCDD /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
+                            13476CEAE6824397BDE9A513 /* CMake Rules */,
+                            80E7D4A8DFD842C8848B6938 /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
                      );
                      name = ALL_BUILD;
                      sourceTree = "<group>";
               };
-              AE3FBD1F243B46E0ACDCC105 /* CMake Rules */ = {
+              13476CEAE6824397BDE9A513 /* CMake Rules */ = {
                      isa = PBXGroup;
                      children = (
                      );
                      name = "CMake Rules";
                      sourceTree = "<group>";
               };
-              499253F28F9D4E15BC155A08 /* ZERO_CHECK */ = {
+              2BA8BF70BAE046B992A8D28D /* ZERO_CHECK */ = {
                      isa = PBXGroup;
                      children = (
-                            8EBAD2C346524C518DD7399B /* CMake Rules */,
-                            C33F976A1D3043739BD1FFCC /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
+                            B1B936163FF7467695BFA212 /* CMake Rules */,
+                            3E853D0666D547F79EBC6086 /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
                      );
                      name = ZERO_CHECK;
                      sourceTree = "<group>";
               };
-              8EBAD2C346524C518DD7399B /* CMake Rules */ = {
+              B1B936163FF7467695BFA212 /* CMake Rules */ = {
                      isa = PBXGroup;
                      children = (
                      );
                      name = "CMake Rules";
                      sourceTree = "<group>";
               };
-              E7B85747CE054046AF71DA1E /* lynx */ = {
+              CA748CAA22EB46D2B749B91B /* lynx */ = {
                      isa = PBXGroup;
                      children = (
-                            C6448F2DAD1945B5A8AB1382 /* Source Files */,
-                            76D4757407564506838EE3D3 /* Resources */,
-                            E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
+                            54BCA7B612E44CB6A5BB132E /* Source Files */,
+                            1699A8062FB1428EB3042D9A /* Resources */,
+                            8881658F1A4E4502B25E22E6 /* /Users/ope/Desktop/lynx/CMakeLists.txt */,
                      );
                      name = lynx;
                      sourceTree = "<group>";
               };
-              C6448F2DAD1945B5A8AB1382 /* Source Files */ = {
+              54BCA7B612E44CB6A5BB132E /* Source Files */ = {
                      isa = PBXGroup;
                      children = (
-                            95134503B19B405486D37F2A /* /Users/ope/Desktop/lynx/main.c */,
+                            7473CFDBE0894EDF899CA240 /* /Users/ope/Desktop/lynx/main.cpp */,
                      );
                      name = "Source Files";
                      sourceTree = "<group>";
               };
-              76D4757407564506838EE3D3 /* Resources */ = {
+              1699A8062FB1428EB3042D9A /* Resources */ = {
                      isa = PBXGroup;
                      children = (
-                            9E67D5C3B24542A7BD91C2A1 /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */,
+                            0B2020B6B8324D62A8261AED /* /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist */,
                      );
                      name = Resources;
                      sourceTree = "<group>";
               };
-              AAC4DCD4B23540E89C5DD8C0 /* Products */ = {
+              440EE2763F4A41FB92BBF10A /* Products */ = {
                      isa = PBXGroup;
                      children = (
-                            0BC759B55BD84C60A04AFD8D /* lynx */,
+                            F7E196E0864A45BB8188724A /* lynx */,
                      );
                      name = Products;
                      sourceTree = "<group>";
@@ -204,18 +204,18 @@ E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = P
 /* Begin PBXNativeTarget section */
               2E02E7A5511F40BA93D4A15B /* lynx */ = {
                      isa = PBXNativeTarget;
-                     buildConfigurationList = DD8EE5CE8A154E2D8F41EEFF /* Build configuration list for PBXNativeTarget "lynx" */;
+                     buildConfigurationList = 7E44154758AF48D0BA08F4AE /* Build configuration list for PBXNativeTarget "lynx" */;
                      buildPhases = (
-                            A9916DE873DF4EE7980662EC /* Sources */,
+                            3E6113C3132045BEB335D098 /* Sources */,
                      );
                      buildRules = (
                      );
                      dependencies = (
-                            B97D53F63A3249648451AD9D /* PBXTargetDependency */,
+                            C25CDE64E9B84129A22987A0 /* PBXTargetDependency */,
                      );
                      name = lynx;
                      productName = lynx;
-                     productReference = 0BC759B55BD84C60A04AFD8D /* lynx */;
+                     productReference = F7E196E0864A45BB8188724A /* lynx */;
                      productType = "com.apple.product-type.application";
               };
 /* End PBXNativeTarget section */
@@ -226,18 +226,18 @@ E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = P
                      attributes = {
                             BuildIndependentTargetsInParallel = YES;
                      };
-                     buildConfigurationList = 55B14C2E7CD44367BDBF9B69 /* Build configuration list for PBXProject  "lynx" */;
+                     buildConfigurationList = C962FA327C814F60A2F0E072 /* Build configuration list for PBXProject  "lynx" */;
                      buildSettings = {
                      };
                      buildStyles = (
-                            B702DE860B994A508EA653B4 /* Debug */,
-                            FD2224D23FCA4AE68700DB0A /* Release */,
-                            82E9995B0C3A4CEAA18FDE0B /* MinSizeRel */,
-                            0AD1205AD7D445EC9D346EBC /* RelWithDebInfo */,
+                            8DF30007C8E6473B9986EA83 /* Debug */,
+                            573C2BBFE49948198F5387F3 /* Release */,
+                            A16965C9369A4E8C82A9D2BF /* MinSizeRel */,
+                            1830FC4130D34302B2C7790A /* RelWithDebInfo */,
                      );
                      compatibilityVersion = "Xcode 3.2";
                      hasScannedForEncodings = 0;
-                     mainGroup = 25192CAE47754459B5B526C8;
+                     mainGroup = BFBFA796BCBD4EEEB44C1995;
                      projectDirPath = "../..";
                      projectRoot = "";
                      targets = (
@@ -249,7 +249,7 @@ E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = P
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-              8F3595292E2044B4B70B0629 /*  */ = {
+              1BAF7C1818DF447E9545686D /*  */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -264,7 +264,7 @@ E95F81031F4548BAA9A08233 /* /Users/ope/Desktop/lynx/CMakeLists.txt */ = {isa = P
 exit 0";
                      showEnvVarsInLog = 0;
               };
-              099ED21F712A4567BD43204A /* CMake Rules */ = {
+              CFE3B4F7266945A8BD10A059 /* CMake Rules */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -275,7 +275,7 @@ exit 0";
                      shellScript = "make -C /Users/ope/Desktop/lynx/proj/osx-xcode -f /Users/ope/Desktop/lynx/proj/osx-xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
-              F45565AE0F19473682B983A2 /*  */ = {
+              68DE72006B45426581702522 /*  */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -290,7 +290,7 @@ exit 0";
 exit 0";
                      showEnvVarsInLog = 0;
               };
-              7607A67B314C4FA3AD89BA09 /* CMake Rules */ = {
+              F2C7D628108048E69D25AE9A /* CMake Rules */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -304,36 +304,36 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-              A9916DE873DF4EE7980662EC /* Sources */ = {
+              3E6113C3132045BEB335D098 /* Sources */ = {
                      isa = PBXSourcesBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
-                            7FAB67870427416EB0A27138 /* /Users/ope/Desktop/lynx/main.c */,
+                            A1D2C3179AF94B2B8F3D89B6 /* /Users/ope/Desktop/lynx/main.cpp */,
                      );
                      runOnlyForDeploymentPostprocessing = 0;
               };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-              663E432BE08B405582B7A607 /* PBXTargetDependency */ = {
-                     isa = PBXTargetDependency;
-                     target = 778B6CC58A9E408FA4CE8066 /* ZERO_CHECK */;
-                     targetProxy = 9F80AD2C242D42F897BEA302 /* PBXContainerItemProxy */;
-              };
-              E1AD5317CD584B21B7AE2FAA /* PBXTargetDependency */ = {
+              9645715898934F969A1020E2 /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
                      target = 2E02E7A5511F40BA93D4A15B /* lynx */;
-                     targetProxy = 68735B6362794089BC9FDD54 /* PBXContainerItemProxy */;
+                     targetProxy = 034CC9C39A554F9C94A8B6C3 /* PBXContainerItemProxy */;
               };
-              B97D53F63A3249648451AD9D /* PBXTargetDependency */ = {
+              7570BF893BF44FC888FD331F /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
                      target = 778B6CC58A9E408FA4CE8066 /* ZERO_CHECK */;
-                     targetProxy = 79E726B5602349AF93FA9249 /* PBXContainerItemProxy */;
+                     targetProxy = 2CE138233E7D44C79A9C9793 /* PBXContainerItemProxy */;
+              };
+              C25CDE64E9B84129A22987A0 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 778B6CC58A9E408FA4CE8066 /* ZERO_CHECK */;
+                     targetProxy = 7AE172DFBAB940AE85F3480D /* PBXContainerItemProxy */;
               };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-              7ED51688D6EA4847B68407CD /* Debug */ = {
+              63AE3FFF420949D79EB3112E /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -343,7 +343,7 @@ exit 0";
                      };
                      name = Debug;
               };
-              43A0678B240F4BE284988B91 /* Release */ = {
+              6B77EE701E5341A19014A88F /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -353,7 +353,7 @@ exit 0";
                      };
                      name = Release;
               };
-              7D5198FFF25E474997FCD84C /* MinSizeRel */ = {
+              5756B404285446AC8B72A147 /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -363,7 +363,7 @@ exit 0";
                      };
                      name = MinSizeRel;
               };
-              83D32969DD9840A3A60FB6CF /* RelWithDebInfo */ = {
+              D35C11AC4A8446DC9D106C45 /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -373,7 +373,7 @@ exit 0";
                      };
                      name = RelWithDebInfo;
               };
-              FA09D049740F4E0996180E47 /* Debug */ = {
+              D55A04D0FD1F4FAD9BC17712 /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -394,7 +394,7 @@ exit 0";
                      };
                      name = Debug;
               };
-              EE91A3A6808E4C93B816D832 /* Release */ = {
+              1EE94612C4A9416986E8D248 /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -415,7 +415,7 @@ exit 0";
                      };
                      name = Release;
               };
-              6D45748C97F84B649563358A /* MinSizeRel */ = {
+              9990FC7CF6124524ADDE3BD3 /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -436,7 +436,7 @@ exit 0";
                      };
                      name = MinSizeRel;
               };
-              D11AC47108564AD6BE4D01F8 /* RelWithDebInfo */ = {
+              9519DF5BAFDE49CABCDAB294 /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -457,7 +457,7 @@ exit 0";
                      };
                      name = RelWithDebInfo;
               };
-              B1E3B08CE51A494CAF8024BE /* Debug */ = {
+              153C85D162754B008B6265F7 /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -478,7 +478,7 @@ exit 0";
                      };
                      name = Debug;
               };
-              489AF2A719444BEFA2061211 /* Release */ = {
+              E1B6C0C3C6D640D5A702A5CD /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -499,7 +499,7 @@ exit 0";
                      };
                      name = Release;
               };
-              49F7F73B73E243F89B3059BB /* MinSizeRel */ = {
+              63B8339D8EE54570A326777F /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -520,7 +520,7 @@ exit 0";
                      };
                      name = MinSizeRel;
               };
-              C4CD75DABF6B4751917448EA /* RelWithDebInfo */ = {
+              640F3C10E7F949FB89605C50 /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -541,12 +541,13 @@ exit 0";
                      };
                      name = RelWithDebInfo;
               };
-              6C59A3CF96794BDBB554358B /* Debug */ = {
+              3C53EF00DCAC417186FF4F55 /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = "";
                             EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = ("/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks", );
                             GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
@@ -555,8 +556,9 @@ exit 0";
                             INFOPLIST_FILE = "/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist";
                             INSTALL_PATH = "";
                             LIBRARY_SEARCH_PATHS = "";
-                            OTHER_CFLAGS = "    ";
-                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_CFLAGS = "           -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk  ";
+                            OTHER_CPLUSPLUSFLAGS = "           -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = lynx;
                             SECTORDER_FLAGS = "";
@@ -566,22 +568,24 @@ exit 0";
                      };
                      name = Debug;
               };
-              1C18D61BD0C749128D4E3278 /* Release */ = {
+              37E9DECEF14740C8B4B7ED38 /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = "";
                             EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = ("/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks", );
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
                             INFOPLIST_FILE = "/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist";
                             INSTALL_PATH = "";
                             LIBRARY_SEARCH_PATHS = "";
-                            OTHER_CFLAGS = "    -DNDEBUG  ";
-                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_CFLAGS = "    -DNDEBUG         -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG         -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = lynx;
                             SECTORDER_FLAGS = "";
@@ -591,22 +595,24 @@ exit 0";
                      };
                      name = Release;
               };
-              0015E033F3FD4F77947CD480 /* MinSizeRel */ = {
+              6302376CD2114B1AA9949760 /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = "";
                             EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = ("/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks", );
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
                             INFOPLIST_FILE = "/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist";
                             INSTALL_PATH = "";
                             LIBRARY_SEARCH_PATHS = "";
-                            OTHER_CFLAGS = "    -DNDEBUG  ";
-                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_CFLAGS = "    -DNDEBUG         -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG         -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = lynx;
                             SECTORDER_FLAGS = "";
@@ -616,22 +622,24 @@ exit 0";
                      };
                      name = MinSizeRel;
               };
-              246366DFC14543CB9D662274 /* RelWithDebInfo */ = {
+              FF9433500FD74DD48F5B0CE4 /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = "";
                             EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = ("/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks", );
                             GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
                             INFOPLIST_FILE = "/Users/ope/Desktop/lynx/proj/osx-xcode/CMakeFiles/lynx.dir/Info.plist";
                             INSTALL_PATH = "";
                             LIBRARY_SEARCH_PATHS = "";
-                            OTHER_CFLAGS = "       -DNDEBUG  ";
-                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_CFLAGS = "       -DNDEBUG         -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG         -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = lynx;
                             SECTORDER_FLAGS = "";
@@ -644,46 +652,46 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-              55B14C2E7CD44367BDBF9B69 /* Build configuration list for PBXProject  "lynx" */ = {
+              C962FA327C814F60A2F0E072 /* Build configuration list for PBXProject  "lynx" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            7ED51688D6EA4847B68407CD /* Debug */,
-                            43A0678B240F4BE284988B91 /* Release */,
-                            7D5198FFF25E474997FCD84C /* MinSizeRel */,
-                            83D32969DD9840A3A60FB6CF /* RelWithDebInfo */,
+                            63AE3FFF420949D79EB3112E /* Debug */,
+                            6B77EE701E5341A19014A88F /* Release */,
+                            5756B404285446AC8B72A147 /* MinSizeRel */,
+                            D35C11AC4A8446DC9D106C45 /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              ADCA0A168CD84B3283B6E0ED /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+              2F3125014C6E4BCDBA623AA9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            FA09D049740F4E0996180E47 /* Debug */,
-                            EE91A3A6808E4C93B816D832 /* Release */,
-                            6D45748C97F84B649563358A /* MinSizeRel */,
-                            D11AC47108564AD6BE4D01F8 /* RelWithDebInfo */,
+                            D55A04D0FD1F4FAD9BC17712 /* Debug */,
+                            1EE94612C4A9416986E8D248 /* Release */,
+                            9990FC7CF6124524ADDE3BD3 /* MinSizeRel */,
+                            9519DF5BAFDE49CABCDAB294 /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              AD32B41B795742199CE4D98B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+              CB7FBC84339248ACAFD256B4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            B1E3B08CE51A494CAF8024BE /* Debug */,
-                            489AF2A719444BEFA2061211 /* Release */,
-                            49F7F73B73E243F89B3059BB /* MinSizeRel */,
-                            C4CD75DABF6B4751917448EA /* RelWithDebInfo */,
+                            153C85D162754B008B6265F7 /* Debug */,
+                            E1B6C0C3C6D640D5A702A5CD /* Release */,
+                            63B8339D8EE54570A326777F /* MinSizeRel */,
+                            640F3C10E7F949FB89605C50 /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              DD8EE5CE8A154E2D8F41EEFF /* Build configuration list for PBXNativeTarget "lynx" */ = {
+              7E44154758AF48D0BA08F4AE /* Build configuration list for PBXNativeTarget "lynx" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            6C59A3CF96794BDBB554358B /* Debug */,
-                            1C18D61BD0C749128D4E3278 /* Release */,
-                            0015E033F3FD4F77947CD480 /* MinSizeRel */,
-                            246366DFC14543CB9D662274 /* RelWithDebInfo */,
+                            3C53EF00DCAC417186FF4F55 /* Debug */,
+                            37E9DECEF14740C8B4B7ED38 /* Release */,
+                            6302376CD2114B1AA9949760 /* MinSizeRel */,
+                            FF9433500FD74DD48F5B0CE4 /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
